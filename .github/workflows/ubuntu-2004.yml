@@ -30,14 +30,14 @@ jobs:
     - name: checkout Chaste repository
       uses: actions/checkout@v3
       with:
-        repository: Chaste/Chaste
+        repository: Chaste/ChasteError
         path: Chaste
         submodules: recursive
       
     - name: checkout ApPredict project
       uses: actions/checkout@v3
       with:
-        repository: Chaste/ApPredict
+        repository: Chaste/ApPredictError
         path: Chaste/projects/ApPredict
         submodules: recursive
         
